@@ -1,12 +1,12 @@
 # TelegramApi
 Простой класс для отправки текстовых сообщений Telegram боту.
-Разработан в среде Delphi XE2. Используются встроенные компоненты Indy
+Разработан в среде Delphi XE2. Используются встроенные компоненты Indy.
 
 
-Пример использования:
-
+# Пример использования:
+```delphi
 var
-  TelegramApi: TTelegramApi; 
+  TelegramApi: TTelegramApi;
 begin
   TelegramApi := TTelegramApi.Create;
   try
@@ -16,3 +16,4 @@ begin
   finally
     TelegramApi.Free;
   end;
+```
